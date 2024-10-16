@@ -14,3 +14,9 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+My name is Manny Gonzalez, and I am a third year at the University of Wisconsin - Madison studying Information Science with certificates in Computer Science and Graphic Design!
+- 🔭 I’m currently working on the Odin Project and completing the projects on there!
+- 🌱 I’m currently learning JavaScript and React.JS!
+- 👯 I’m looking to collaborate on any project that I can practice JavaScript and React.JS, as well as JavaScript Frameworks!
+
+Thank you for visiting my profile! :)
