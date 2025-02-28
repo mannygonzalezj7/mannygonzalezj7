@@ -8,18 +8,16 @@ function Footer() {
       <div className="footer-links">
         <ul>
           <li>
-            <Link to="/mannygonzalezj7/">home</Link>
+            <Link to="/">home</Link>
           </li>
           <li>
-            <Link to="/mannygonzalezj7/SoftwareDevelopment">
-              software development
-            </Link>
+            <Link to="/SoftwareDevelopment">software development</Link>
           </li>
           <li>
-            <Link to="/mannygonzalezj7/GraphicDesign">graphic design</Link>
+            <Link to="/GraphicDesign">graphic design</Link>
           </li>
           <li>
-            <Link to="/mannygonzalezj7/Contact">contact</Link>
+            <Link to="/Contact">contact</Link>
           </li>
         </ul>
       </div>
@@ -36,7 +34,7 @@ function Footer() {
           bgColor="white"
           fgColor="black"
           target="_blank"
-          url="https://github.com/mannygonzalezj7"
+          url="https://github.com"
         />
       </div>
     </div>

@@ -56,30 +56,27 @@ export default function Header() {
           />
         </li>
         <li>
-          <Link to="/mannygonzalezj7/" onClick={handleToggle}>
+          <Link to="/" onClick={handleToggle}>
             home
           </Link>
         </li>
         <li>
-          <Link
-            to="/mannygonzalezj7/SoftwareDevelopment"
-            onClick={handleToggle}
-          >
+          <Link to="/SoftwareDevelopment" onClick={handleToggle}>
             software development
           </Link>
         </li>
         <li>
-          <Link to="/mannygonzalezj7/UIUX" onClick={handleToggle}>
+          <Link to="/UIUX" onClick={handleToggle}>
             ui/ux design
           </Link>
         </li>
         <li>
-          <Link to="/mannygonzalezj7/GraphicDesign" onClick={handleToggle}>
+          <Link to="/GraphicDesign" onClick={handleToggle}>
             graphic design
           </Link>
         </li>
         <li>
-          <Link to="/mannygonzalezj7/Contact" onClick={handleToggle}>
+          <Link to="/Contact" onClick={handleToggle}>
             contact
           </Link>
         </li>

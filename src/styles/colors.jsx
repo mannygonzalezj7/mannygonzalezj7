@@ -6,4 +6,5 @@ export const COLORS = {
   darker: "#320203",
   white: "#EEEEEE",
   black: "#0F0000",
+  random: "#010101",
 };

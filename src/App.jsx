@@ -16,21 +16,15 @@ function App() {
         <Header />
         <div className="Content">
           <Routes>
-            <Route path="/mannygonzalezj7/" element={<Home />} />
+            <Route path="/" element={<Home />} />
             <Route
-              path="/mannygonzalezj7/SoftwareDevelopment"
+              path="/SoftwareDevelopment"
               element={<SoftwareDevelopment />}
             />
-            <Route path="/mannygonzalezj7/UIUX" element={<UIUX />} />
-            <Route
-              path="/mannygonzalezj7/GraphicDesign"
-              element={<GraphicDesign />}
-            />
-            <Route path="/mannygonzalezj7/Contact" element={<Contact />} />
-            <Route
-              path="/mannygonzalezj7/:category/:projectId"
-              element={<Project />}
-            />
+            <Route path="/UIUX" element={<UIUX />} />
+            <Route path="/GraphicDesign" element={<GraphicDesign />} />
+            <Route path="/Contact" element={<Contact />} />
+            <Route path="/:category/:projectId" element={<Project />} />
           </Routes>
         </div>
         <Footer />
