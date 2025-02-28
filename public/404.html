@@ -9,15 +9,17 @@
         (function () {
             var currentLocation = window.location;
             var path = currentLocation.pathname.replace(/\/$/, '') + currentLocation.search + currentLocation.hash;
-            var customDomain = 'manuelgonzalezjimenez.com'; // Your custom domain
 
-            // Ensure the redirect only happens once
-            if (currentLocation.hostname === customDomain && !sessionStorage.getItem('redirected')) {
-                sessionStorage.setItem('redirected', 'true'); // Set a flag to prevent infinite loop
-                var newUrl = currentLocation.protocol + '//' + customDomain + path;
+            // Get the new URL
+            var newUrl = currentLocation.protocol + '//' + currentLocation.host + '/' + path;
+
+            // Check if the new URL is the same as the current URL to prevent infinite loop
+            if (currentLocation.href !== newUrl) {
                 window.location.replace(newUrl);
             } else {
-                sessionStorage.removeItem('redirected'); // Clear the flag after redirect
+                // Clear session storage and redirect to the homepage to prevent infinite loop
+                sessionStorage.removeItem('redirect');
+                window.location.replace('/');
             }
         })();
     </script>
