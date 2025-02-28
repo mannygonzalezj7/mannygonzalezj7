@@ -8,7 +8,7 @@
         (function () {
             var currentLocation = window.location;
             var path = currentLocation.pathname.replace(/\/$/, '') + currentLocation.search + currentLocation.hash;
-            var newUrl = currentLocation.protocol + '//' + currentLocation.host + '/your-repo-name/' + path;
+            var newUrl = currentLocation.protocol + '//' + currentLocation.host + '/' + path;
             window.location.replace(newUrl);
         })();
     </script>
