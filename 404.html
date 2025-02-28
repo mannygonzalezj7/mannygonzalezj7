@@ -8,13 +8,10 @@
     <script>
         const currentPath = window.location.pathname;
 
-        // Replace the current path with index.html
         if (currentPath === "/") {
             window.location.replace("/");
-            return;
         } else {
             window.location.replace(currentPath);
-            return;
         }
     </script>
 </head>
