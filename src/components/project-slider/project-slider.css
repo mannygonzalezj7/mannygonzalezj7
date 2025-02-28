@@ -1,0 +1,23 @@
+.card-holder{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem 0;
+
+    background-color: rgba(255, 255, 255, 0.1);
+    background-color: white;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img{
+    height: 2rem;
+    width: auto;
+}
