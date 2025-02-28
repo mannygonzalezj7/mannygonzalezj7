@@ -5,10 +5,10 @@
     <meta charset="utf-8">
     <title>Redirecting...</title>
     <script type="text/javascript">
-        // LOGIC FROM COPILOT
         (function () {
             var currentLocation = window.location;
-            var newUrl = currentLocation.protocol + '//' + currentLocation.host + '/' + '#/';
+            var path = currentLocation.pathname.replace(/\/$/, '') + currentLocation.search + currentLocation.hash;
+            var newUrl = currentLocation.protocol + '//' + currentLocation.host + '/' + path;
             window.location.replace(newUrl);
         })();
     </script>
