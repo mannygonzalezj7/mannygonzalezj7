@@ -9,13 +9,13 @@
         const currentPath = window.location.pathname;
 
         // Replace the current path with index.html
-        if (currentPath !== "/") {
+        if (currentPath === "/") {
             window.location.replace("/");
+            return;
         } else {
             window.location.replace(currentPath);
+            return;
         }
-
-        window.location.replace("/");
     </script>
 </head>
 
