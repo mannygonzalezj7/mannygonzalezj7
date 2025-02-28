@@ -11,7 +11,7 @@ import Project from "./pages/Project-Page";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/">
       <div className="App">
         <Header />
         <div className="Content">
