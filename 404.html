@@ -4,11 +4,13 @@
 <head>
     <meta charset="utf-8">
     <title>Redirecting...</title>
-    <script>
-        const path = location.pathname.substring(1);
-        const redirect = sessionStorage.getItem('redirect');
-        sessionStorage.removeItem('redirect');
-        location.replace(redirect || (path ? '/' + path : '/'));
+    <script type="text/javascript">
+        (function () {
+            var currentLocation = window.location;
+            var path = currentLocation.pathname.replace(/\/$/, '') + currentLocation.search + currentLocation.hash;
+            var newUrl = currentLocation.protocol + '//' + currentLocation.host + '/your-repo-name/' + path;
+            window.location.replace(newUrl);
+        })();
     </script>
 </head>
 
