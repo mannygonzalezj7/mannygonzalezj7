@@ -8,12 +8,11 @@
     <script>
         const currentPath = window.location.pathname;
 
-        if (currentPath === "/") {
-            window.location.replace("/");
-        } else {
+        if (currentPath !== "/") {
             window.location.replace(currentPath);
         }
     </script>
+
 </head>
 
 <body>
