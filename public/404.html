@@ -5,21 +5,11 @@
     <meta charset="utf-8">
     <title>Redirecting...</title>
     <script type="text/javascript">
+        // LOGIC FROM COPILOT
         (function () {
             var currentLocation = window.location;
-            var path = currentLocation.pathname + currentLocation.search + currentLocation.hash;
-            var customDomain = 'manuelgonzalezjimenez.com'; // Your custom domain
-
-            // Check if the path already includes the expected prefix to prevent an infinite loop
-            if (sessionStorage.getItem('redirected') !== 'true') {
-                // Set a flag to prevent infinite loop
-                sessionStorage.setItem('redirected', 'true');
-                var newUrl = currentLocation.protocol + '//' + customDomain + path;
-                window.location.replace(newUrl);
-            } else {
-                // Clear session storage after the first redirect to allow normal navigation
-                sessionStorage.removeItem('redirected');
-            }
+            var newUrl = currentLocation.protocol + '//' + currentLocation.host + '/' + '#/';
+            window.location.replace(newUrl);
         })();
     </script>
 </head>
