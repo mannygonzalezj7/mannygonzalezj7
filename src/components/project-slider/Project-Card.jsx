@@ -1,8 +1,8 @@
-export default function Card({ img, alt, name }) {
+export default function Card({ ...props }) {
   return (
-    <div className="card">
-      <img src={img} alt={alt} className="img" />
-      <p>{name}</p>
+    <div className="card" onClick={props.onClick}>
+      <img src={props.img} alt={props.alt} className="img" />
+      <p>{props.name}</p>
     </div>
   );
 }

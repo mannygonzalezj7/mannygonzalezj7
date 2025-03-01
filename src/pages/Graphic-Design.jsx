@@ -1,4 +1,4 @@
-import data from "../../public/assets/projects.json";
+import data from "../projects.json";
 import Card from "../components/project-slider/Project-Card";
 import LogoSlider from "../components/logo-slider/Logo-Slider";
 import { useNavigate } from "react-router-dom";

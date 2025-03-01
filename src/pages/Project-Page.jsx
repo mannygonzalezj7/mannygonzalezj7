@@ -1,5 +1,5 @@
 import { Link, useParams } from "react-router-dom";
-import data from "../../public/assets/projects.json";
+import data from "../projects.json";
 import "../styles/App.css";
 
 export default function Project() {

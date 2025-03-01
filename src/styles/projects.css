@@ -382,13 +382,31 @@ h2{
 /* ANIMATIONS */
 
 @media (prefers-reduced-motion: no-preference) {
-    .style1 > *, .style2 > *, .style4 > *, .style5 > *{
+    @keyframes fade-in {
+        from {
+          opacity: 0;
+          transform: translateY(150px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+      
+      .style1 > *, .style2 > *, .style4 > *, .style5 > * {
         opacity: 0;
-        translate: 0 200px;
-        animation: fade-in 10s linear forwards;
-        animation-timeline: view();
-        animation-range: entry 0px 325px;
-    }   
+        transform: translateY(150px);
+        transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+      }
+      
+      .style1.show > *, 
+      .style2.show > *, 
+      .style4.show > *, 
+      .style5.show > * {
+        opacity: 1;
+        transform: translateY(0);
+      }
+        
 
     .style3 #text, .style3 button {
         color: white;

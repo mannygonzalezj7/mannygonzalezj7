@@ -119,7 +119,34 @@ h1{
 }
 
 .canvas-container{
-    height: 40rem;
+    height: 100vh;
+    transform: translateY(-10rem);
+}
+
+.home-software{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 7rem 7rem 0rem 0rem;
+    padding-top: 8rem;
+    transform: translateY(-30rem);
+
+}
+
+.home-software button{
+    border-style: none;
+    padding: .5rem 1rem;
+    border-radius: 2rem;
+    background-color: transparent;
+    border: 2px black solid;
+    cursor: pointer;
+}
+
+.home-software button:hover{
+    color: red;
+    border-color: red;
+    transition: 150ms;
 }
 
 /* software development */

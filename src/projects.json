@@ -1,0 +1,79 @@
+{
+    "SoftwareDevelopment":{
+        "rockpaperscissors":{
+            "style": "style1",
+            "name":"Rock, Paper, Scissors",
+            "date":"10/2024",
+            "short":"Rock, Paper, Scissors",
+            "long":"Rock, Paper, Scissors from Odin Project",
+            "img":"/assets/img/rockpaperscissors.jpg",
+            "logo":"/assets/svg/close-menu.svg",
+            "alt":"Rock, Paper, Scissors game being played!",
+            "link": "https://github.com/mannygonzalezj7/odin-rock-paper-scissors",
+            "description":"This project is the concepts of a rock, paper, scissors game in HTML and JavaScript. From this project, I practiced the use of console inputs and prompts. The project is primarily coded in JavaScript, using functions, variables (both global and local), and recursion. The project itself was a simple outline by Odin Project, but I extended it to catch all exceptions, including null exceptions. So far, the game is still played in console, but in the future I plan to have an interactive user interface made with HTML, CSS and JavaScript. This game was good practice for the basics of JavaScript, and a good reminder that debugging is very important for making sure everything works properly!"
+        },
+        "madlibs":{
+            "style": "style2",
+            "name":"MadLibs",
+            "date":"10/2024",
+            "short":"Mad and Libs",
+            "long":"MadLibs project from LIS 640 with a twist!",
+            "img":"/assets/img/madlibs1.png",
+            "logo":"/assets/svg/close-menu.svg",
+            "alt":"MadLibs game being played!",
+            "link": "https://github.com/mannygonzalezj7/MadLibs",
+            "description":""
+        },
+        "recipefinder":{
+            "style": "style5",
+            "name":"RecipeFinder",
+            "date":"11/2024",
+            "short":"Find tasty recipies!",
+            "long":"Madhacks 2025 Project!",
+            "img":"/assets/img/recipefinder1.png",
+            "logo":"/assets/svg/close-menu.svg",
+            "alt":"Recipe finder home screen with a purple to pink gradiet background and search field",
+            "link": "https://github.com/mannygonzalezj7/recpie-finder",
+            "description":"Our objective was to create a webpage where college students and other people with low time/resources could figure out what to cook with only the given ingredients they have in their fridge. Our main goal was to make cooking easier and a better experience for users. We decided to tackle the project in HTML, CSS and JavaScript using Edamam's Recipe Search API, as well as Firebase for authentication. The styling was made to look modern and sleek, in order to appeal to our target audiences."
+        },
+        "libraryfinder":{
+            "style": "style1",
+            "name":"LibraryFinder",
+            "date":"12/2024",
+            "short":"Find Madison Libraries",
+            "long":"UW-Madison Libraries near you waiting to be explored!",
+            "img":"/assets/img/libraryfinder1.png",
+            "logo":"/assets/svg/close-menu.svg",
+            "alt":"Recipe finder home screen with a purple to pink gradiet background and search field",
+            "link": "https://github.com/mannygonzalezj7/LibraryFinder",
+            "description":"LIS 640 final project. Made with JavaScript, HTML, CSS and Bootstrap. This project was in collaboration with Tanmay Maity, a MS Information and Library Sciences student at the University of Wisconsin - Madison. This project features static library hours and information, book checkouts, events, and contact information."
+        }
+        
+    }, "GraphicDesign":{
+        "project1":{
+            "style": "style1",
+            "name":"This is where the projects will go once updated",
+            "date":"09/11/2001",
+            "short":"Projects",
+            "long":"Projects",
+            "img":"/assets/img/screen.jpeg",
+            "logo":"/assets/svg/close-menu.svg",
+            "alt":"Projects image",
+            "link": "https://www.apple.com/",
+            "description":"Projects description goes here!"
+        }
+    }, "UIUX":{
+        "project1":{
+            "style": "style1",
+            "name":"This is where the projects will go once updated",
+            "date":"09/11/2001",
+            "short":"Projects",
+            "long":"Projects",
+            "img":"/assets/img/screen.jpeg",
+            "logo":"/assets/svg/close-menu.svg",
+            "alt":"Projects image",
+            "link": "https://www.apple.com/",
+            "description":"Projects description goes here!"
+        }
+    }
+}

@@ -25,7 +25,7 @@ export default function Home() {
             </p>
           </div>
           <img
-            src="/assets/img/picture4.jpg"
+            src="/assets/img/manny.jpg"
             alt="a picture of Manny Gonzalez"
             id="manny-image"
           />
@@ -38,6 +38,10 @@ export default function Home() {
               <Macbook />
             </ScrollControls>
           </Canvas>
+        </div>
+        <div className="home-software">
+          <h1>Software Development</h1>
+          <button>Explore More</button>
         </div>
       </div>
     </>
