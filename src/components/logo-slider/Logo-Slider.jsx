@@ -1,5 +1,5 @@
 import "./Logo-Slider.css";
-import InlineSVG from "../../styles/inlineSVG.jsx";
+import InlineSVG from "../../utils/inlineSVG.jsx";
 
 export default function LogoSlider({ logos }) {
   // Returns the name of the logo without the file trace

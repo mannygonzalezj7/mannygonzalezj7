@@ -16,7 +16,7 @@ import { TextureLoader } from "three";
 
 export function Macbook(props) {
   const { nodes, materials } = useGLTF("/assets/3D/macbook.glb");
-  const texture = useLoader(TextureLoader, "/assets/img/screen.jpeg");
+  const texture = useLoader(TextureLoader, "/assets/img/libraryfinder1.png");
   const group = useRef();
   const tl = useRef();
   const screenRef = useRef();

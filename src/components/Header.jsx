@@ -75,11 +75,12 @@ export default function Header() {
             graphic design
           </Link>
         </li>
+        {/*}
         <li>
           <Link to="/Contact" onClick={handleToggle}>
             contact
-          </Link>
-        </li>
+      </Link>
+        </li>*/}
       </ul>
     </nav>
   );

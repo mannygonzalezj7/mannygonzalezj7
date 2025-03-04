@@ -1,8 +1,15 @@
 import { Canvas } from "@react-three/fiber";
 import { Macbook } from "../../public/assets/3D/Macbook";
 import { ScrollControls } from "@react-three/drei";
+import { useNavigate } from "react-router-dom";
 
 export default function Home() {
+  const navigate = useNavigate();
+
+  const handleButtonClick = (category) => {
+    navigate(`/${category}`);
+  };
+
   return (
     <>
       <div className="home-container">
@@ -32,8 +39,7 @@ export default function Home() {
         </div>
         <div className="canvas-container">
           <Canvas camera={{ fov: 50, position: [0.05, 0.75, 0.1] }}>
-            <ambientLight intensity={5} />
-            <pointLight position={[10, 10, 10]} />
+            <directionalLight intensity={3} />
             <ScrollControls pages={3} damping={0.25}>
               <Macbook />
             </ScrollControls>
@@ -41,7 +47,9 @@ export default function Home() {
         </div>
         <div className="home-software">
           <h1>Software Development</h1>
-          <button>Explore More</button>
+          <button onClick={() => handleButtonClick("SoftwareDevelopment")}>
+            Explore More
+          </button>
         </div>
       </div>
     </>

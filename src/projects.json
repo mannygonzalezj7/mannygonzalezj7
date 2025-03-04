@@ -6,8 +6,8 @@
             "date":"10/2024",
             "short":"Rock, Paper, Scissors",
             "long":"Rock, Paper, Scissors from Odin Project",
-            "img":"/assets/img/rockpaperscissors.jpg",
-            "logo":"/assets/svg/close-menu.svg",
+            "img":["/assets/img/rockpaperscissors.jpg"],
+            "logo":"/assets/projects/rockpaperscissors.svg",
             "alt":"Rock, Paper, Scissors game being played!",
             "link": "https://github.com/mannygonzalezj7/odin-rock-paper-scissors",
             "description":"This project is the concepts of a rock, paper, scissors game in HTML and JavaScript. From this project, I practiced the use of console inputs and prompts. The project is primarily coded in JavaScript, using functions, variables (both global and local), and recursion. The project itself was a simple outline by Odin Project, but I extended it to catch all exceptions, including null exceptions. So far, the game is still played in console, but in the future I plan to have an interactive user interface made with HTML, CSS and JavaScript. This game was good practice for the basics of JavaScript, and a good reminder that debugging is very important for making sure everything works properly!"
@@ -18,8 +18,8 @@
             "date":"10/2024",
             "short":"Mad and Libs",
             "long":"MadLibs project from LIS 640 with a twist!",
-            "img":"/assets/img/madlibs1.png",
-            "logo":"/assets/svg/close-menu.svg",
+            "img":["/assets/img/madlibs1.png"],
+            "logo":"/assets/projects/madlibs.svg",
             "alt":"MadLibs game being played!",
             "link": "https://github.com/mannygonzalezj7/MadLibs",
             "description":""
@@ -30,9 +30,9 @@
             "date":"11/2024",
             "short":"Find tasty recipies!",
             "long":"Madhacks 2025 Project!",
-            "img":"/assets/img/recipefinder1.png",
-            "logo":"/assets/svg/close-menu.svg",
-            "alt":"Recipe finder home screen with a purple to pink gradiet background and search field",
+            "img":["/assets/img/recipefinder1.png"],
+            "logo":"/assets/projects/recipefinder.svg",
+            "alt":"Recipe finder screens with a purple to pink gradiet background and search field",
             "link": "https://github.com/mannygonzalezj7/recpie-finder",
             "description":"Our objective was to create a webpage where college students and other people with low time/resources could figure out what to cook with only the given ingredients they have in their fridge. Our main goal was to make cooking easier and a better experience for users. We decided to tackle the project in HTML, CSS and JavaScript using Edamam's Recipe Search API, as well as Firebase for authentication. The styling was made to look modern and sleek, in order to appeal to our target audiences."
         },
@@ -42,17 +42,28 @@
             "date":"12/2024",
             "short":"Find Madison Libraries",
             "long":"UW-Madison Libraries near you waiting to be explored!",
-            "img":"/assets/img/libraryfinder1.png",
-            "logo":"/assets/svg/close-menu.svg",
-            "alt":"Recipe finder home screen with a purple to pink gradiet background and search field",
+            "img":["/assets/img/libraryfinder1.png", "/assets/img/libraryfinder2.png", "/assets/img/libraryfinder3.png"],
+            "logo":"/assets/projects/libraryfinder.svg",
+            "alt":"LibraryFinder screens",
             "link": "https://github.com/mannygonzalezj7/LibraryFinder",
             "description":"LIS 640 final project. Made with JavaScript, HTML, CSS and Bootstrap. This project was in collaboration with Tanmay Maity, a MS Information and Library Sciences student at the University of Wisconsin - Madison. This project features static library hours and information, book checkouts, events, and contact information."
+        },
+        "peacesign":{
+            "style": "style2",
+            "name":"PeaceSign",
+            "date":"12/2024",
+            "short":"Spread The Peace!",
+            "long":"Share peace-filled activities with people nearby!",
+            "img":["/assets/img/peacesign1.png", "/assets/img/peacesign2.png"],
+            "logo":"/assets/projects/peacesign.svg",
+            "alt":"PeaceSign screens",
+            "description":"Solely engineered PeaceSign, a web application designed to connect users across the United States through image form submissions, aiming to spread peace nationwide. Designed and developed the frontend interface using ReactJS and MapTiller SDK JS. Built backend functionality with Express.js, integrating with a Supabase database for user submissions and admin management. Currently troubleshooting JWT token authentication and optimizing the Supabase connection before launching to production."
         }
         
     }, "GraphicDesign":{
         "project1":{
             "style": "style1",
-            "name":"This is where the projects will go once updated",
+            "name":"This is where the projects will go once updated! Currently under development.",
             "date":"09/11/2001",
             "short":"Projects",
             "long":"Projects",
@@ -63,17 +74,57 @@
             "description":"Projects description goes here!"
         }
     }, "UIUX":{
-        "project1":{
+        "libraryfinder":{
             "style": "style1",
-            "name":"This is where the projects will go once updated",
-            "date":"09/11/2001",
-            "short":"Projects",
-            "long":"Projects",
-            "img":"/assets/img/screen.jpeg",
-            "logo":"/assets/svg/close-menu.svg",
-            "alt":"Projects image",
-            "link": "https://www.apple.com/",
-            "description":"Projects description goes here!"
+            "name":"LibraryFinder",
+            "date":"12/2024",
+            "short":"Responsive UI Design",
+            "long":"LibraryFinder UI design before developing the application",
+            "img":[],
+            "logo":"/assets/projects/libraryfinder.svg",
+            "alt":"LibraryFinder image",
+            "description":"Projects description goes here!",
+            "figmaimg":"/assets/img/libraryfinder1.png",
+            "figma": "https://embed.figma.com/design/danGpTWXIJWV4ELEfg8bc6/LibraryFinderUW?node-id=0-1&embed-host=share"
+        },
+        "glasses4u":{
+            "style": "style2",
+            "name":"Glasses4U",
+            "date":"01/2024",
+            "short":"Rapid UI Design",
+            "long":"Designed for CS 571, In Class, Within 15 Minutes",
+            "img":[],
+            "logo":"/assets/projects/glasses4u.svg",
+            "alt":"glasses4u image",
+            "description":"Projects description goes here!",
+            "figmaimg":"/assets/img/glasses4u1.png",
+            "figma": "https://embed.figma.com/design/BSBmx4KviUFDXweXz7D2qg/571-ICA-B?embed-host=share"
+        },
+        "discord":{
+            "style": "style5",
+            "name":"Discord",
+            "date":"03/2024",
+            "short":"Discord Redesign",
+            "long":"Redesigned Discord communications UI for better user experience",
+            "img":[],
+            "logo":"/assets/projects/discord.svg",
+            "alt":"discord image",
+            "description":"Projects description goes here!",
+            "figmaimg":"/assets/img/discord1.png",
+            "figma": "https://embed.figma.com/design/e32wSyFu38kuS2eBQGFxWV/CS-570-Prototype?node-id=0-1&embed-host=share"
+        },
+        "madisoncatproject":{
+            "style": "style4",
+            "name":"MCP",
+            "date":"02/2024",
+            "short":"Madison Cat Project Redesign",
+            "long":"Redesigned an established website for better user experience",
+            "img":[],
+            "logo":"/assets/projects/MCP.svg",
+            "alt":"Madison Cat Project image",
+            "description":"Projects description goes here!",
+            "figmaimg":"/assets/img/MCP1.png",
+            "figma": "https://embed.figma.com/design/PYvWS3LQwakt8XGlnCbs7H/MADISON-CAT-PROJECT---Redesign?node-id=0-1&embed-host=share"
         }
     }
 }

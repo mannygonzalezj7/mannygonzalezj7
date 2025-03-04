@@ -16,9 +16,26 @@
     justify-content: center;
     align-items: center;
     cursor: pointer;
+
+    gap: 1rem;
 }
 
 .img{
     height: 2rem;
     width: auto;
+}
+
+@media (max-width: 720px) {
+    .card-holder{
+        gap: 1rem;
+    }
+
+    .card{
+        font-size: 1rem;
+    }
+
+    .img{
+        height: 2rem;
+        width: auto;
+    }
 }

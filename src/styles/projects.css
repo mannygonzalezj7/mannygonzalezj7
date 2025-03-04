@@ -347,8 +347,7 @@ h2{
 }
 
 .style5 #title{
-    font-size: 2rem;
-    align-self: flex-end;
+    display: none;
 }
 
 .style5 img{
@@ -378,6 +377,123 @@ h2{
     border-radius: 2rem;
     order: 3;
 }
+
+/* MOBILE */
+
+@media (max-width: 1000px) {
+    .projects {
+        gap: 10rem;
+        padding: 2rem 0;
+    }
+
+    .style1 #body,
+    .style2 #body,
+    .style3 #body,
+    .style4 #body,
+    .style5 #body {
+        padding: 1rem;
+        gap: 2rem;
+    }
+}
+
+@media (max-width: 720px) {
+    .projects {
+        gap: 2rem;
+        padding: 2rem 0;
+    }
+
+    .style1, .style2, .style3, .style4, .style5 {
+        gap: 2rem;
+        padding: 2rem;
+    }
+
+    .style1 #body,
+    .style2 #body,
+    .style3 #body,
+    .style4 #body,
+    .style5 #body {
+        flex-direction: column;
+        padding: 2rem;
+        gap: 1rem;
+    }
+
+    .style1 #text,
+    .style2 #text,
+    .style3 #text,
+    .style4 #text,
+    .style5 #text {
+        align-items: center;
+        text-align: center;
+        gap: 1rem;
+    }
+
+    .style1 h2, 
+    .style2 h2, 
+    .style3 h2, 
+    .style4 h2, 
+    .style5 h2 {
+        font-size: 2.5rem;
+    }
+
+    .style1 #title,
+    .style3 #title, 
+    .style4 #title, 
+    .style5 #title {
+        font-size: 2rem;
+    }
+
+    .style1 img,
+    .style2 img,
+    .style3 img,
+    .style4 img,
+    .style5 img {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .style2 {
+        flex-direction: column;
+    }
+
+    .style2 #head {
+        transform: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .style2 #title {
+        display: none;
+    }
+
+    .style3 #head {
+        position: relative;
+        top: auto;
+        z-index: 0;
+    }
+
+    .style3 h2 {
+        font-size: 6rem;
+    }
+
+    .style3 #title {
+        font-size: 2rem;
+    }
+
+    .style3 #body {
+        gap: 1rem;
+    }
+
+    .style4{
+        gap: 4rem;
+    }
+
+    .style5 #text {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
+
 
 /* ANIMATIONS */
 

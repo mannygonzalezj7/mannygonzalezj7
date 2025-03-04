@@ -28,6 +28,10 @@ h1{
     font-size: 4rem;
 }
 
+iframe{
+    border-style: none;
+}
+
 
 
 /*::-webkit-scrollbar {
@@ -79,7 +83,7 @@ h1{
 /* general */
 
 .projects-header{
-    padding-left: 6rem;
+    text-align: center;
 }
 
 /* home */
@@ -167,64 +171,6 @@ h1{
     justify-content: center;
 }
 
-.graphic-design h1{
-    padding: 1rem 6rem;
-    align-self: center;
-}
-
-#poster-design{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding-top: 5rem;
-
-    background-color: #3F4D95;
-    text-shadow: -1px -1px 0 #ffff, 1px -1px 0 #ffff, -1px 1px 0 #ffff, 1px 1px 0 #ffff;
-    color: #3F4D95;
-    
-}
-
-#destin-conrad-landing{
-    width: 25rem;
-    height: auto;
-}
-
-#destin-shadow-landing{
-    width: 40rem;
-    height: auto;
-    align-self: start;
-    opacity: 75%;
-}
-
-#type-exploration{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    padding: 13rem 0;
-
-    background-color: #D3282B;
-    text-shadow: -1px -1px 0 #ffff, 1px -1px 0 #ffff, -1px 1px 0 #ffff, 1px 1px 0 #ffff;
-    color: #D3282B;
-}
-
-#type-cover {
-    width: 20rem;
-}
-
-#memento-mori{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    padding: 10rem 0;
-
-    background-color: #000;
-    text-shadow: -1px -1px 0 #ffff, 1px -1px 0 #ffff, -1px 1px 0 #ffff, 1px 1px 0 #ffff;
-    color: #000;
-}
-
 /* contact */
 
 .contact{
@@ -258,24 +204,40 @@ h1{
 .project{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: 2rem;
     padding: 2rem 6rem;
+
+    min-height: 75vh;
 }
 
-.project-link:hover{
-    color: red;
-    transition: 150ms;
+.project-link{
+    align-self: flex-start;
 }
 
 .project-body{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 4rem;
 }
 
+.project-images-section{
+    display: flex;
+    flex-direction: column;
+
+    gap: 2rem;
+}
+
 .project-image{
-    width: 20rem;
+    width: 30vw;
     height: auto;
+}
+
+.project-info {
+    display: flex;
+    flex-direction: column;
+    gap: 6rem;
 }
 
 .project-head{
@@ -288,11 +250,34 @@ h1{
 .project-description{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: 2rem;;
 }
 
 .project-description h2{
     font-size: 2rem;
+}
+
+.project a{
+    border-style: none;
+    text-align: center;
+    padding: .5rem 1rem;
+    border-radius: 2rem;
+    background-color: transparent;
+    border: 2px black solid;
+    cursor: pointer;
+}
+
+.project a:hover{
+    color: red;
+    border-color: red;
+    transition: 150ms;
+}
+
+.figma{
+    width: 100%;
+    height: 20rem;
 }
 
 /* FOOTER */
@@ -387,10 +372,39 @@ h1{
         padding: 2rem;
     }
 
+    .home-container{
+        overflow: hidden;
+    }
+
     .home-body h1{
         font-weight: bold;
         font-size: 2rem;
         align-self: flex-start;
+        flex: 3;
+        transform: translateY(0);
+    }
+
+    .canvas-container{
+        height: 50vh;
+        width: 100%;
+        transform: translateY(15rem);
+    }
+
+    .home-software{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: flex-end;
+        transform: translateY(-30rem);
+        padding: 7rem 2rem;
+        gap: 4rem;
+    }
+
+    .home-software h1{
+        font-weight: bold;
+        font-size: 2rem;
+        align-self: flex-end;
         flex: 3;
     }
 
@@ -414,8 +428,30 @@ h1{
         padding-right: 0rem;
     }
 
+    .software-dev-body{
+        padding: 2rem 0;
+    }
+
+    /* PROJECT PAGE */
+
+    .project{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        padding: 2rem 2rem;
+    }
+
     .footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
         padding: 2rem;
+        gap: 1rem;
+    }
+
+    .project-figma{
+        order: 3;
     }
 }
 
@@ -425,6 +461,50 @@ h1{
         padding: 2rem;
         box-sizing: border-box;
         backdrop-filter: blur(20px);
+    }
+
+    .projects-header{
+        font-size: 3rem;
+    }
+
+    .canvas-container{
+        height: 50vh;
+        width: 100%;
+        transform: translateY(12rem);
+    }
+
+    /* PROJECTS PAGE*/
+
+    .project{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        padding: 2rem 2rem;
+    }
+
+    .project-images-section{
+        order:2;
+    }
+
+    .project h1{
+        font-size: 3rem;
+    }
+    
+    .project-body{
+        display: flex;
+        flex-direction: column;
+        gap: 4rem;
+    }
+    
+    .project-image{
+        width: 100%;
+        height: auto;
+    }
+    
+    .project-info {
+        display: flex;
+        flex-direction: column;
+        gap: 4rem;
     }
 }
 

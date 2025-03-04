@@ -14,11 +14,15 @@ function Footer() {
             <Link to="/SoftwareDevelopment">software development</Link>
           </li>
           <li>
-            <Link to="/GraphicDesign">graphic design</Link>
+            <Link to="/UIUX">ui/ux</Link>
           </li>
           <li>
-            <Link to="/Contact">contact</Link>
+            <Link to="/GraphicDesign">graphic design</Link>
           </li>
+          {/*}
+          <li>
+            <Link to="/Contact">contact</Link>
+  </li>*/}
         </ul>
       </div>
       <div className="footer-icons">

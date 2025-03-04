@@ -2,7 +2,7 @@ import data from "../projects.json";
 import Card from "../components/project-slider/Project-Card";
 import LogoSlider from "../components/logo-slider/Logo-Slider";
 import { useNavigate } from "react-router-dom";
-import useScrollAnimation from "../styles/useScrollAnimation.jsx";
+import useScrollAnimation from "../utils/useScrollAnimation.jsx";
 import "../components/project-slider/project-slider.css";
 import "../styles/projects.css";
 
@@ -83,7 +83,10 @@ export default function SoftwareDevelopment() {
                       Learn More
                     </button>
                   </div>
-                  <img src={project.img} alt={project.alt} />
+                  <img
+                    src={project.figmaimg ? project.figmaimg : project.img[0]}
+                    alt={project.alt}
+                  />
                 </div>
               </div>
             ))}

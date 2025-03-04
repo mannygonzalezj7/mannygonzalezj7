@@ -1,5 +1,6 @@
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import "./styles/App.css";
+import ScrollToTop from "./utils/scrollToTop";
 import Header from "./components/Header";
 import Home from "./pages/Home";
 import SoftwareDevelopment from "./pages/Software-Development";
@@ -11,10 +12,11 @@ import Project from "./pages/Project-Page";
 
 function App() {
   return (
-    <Router basename="/">
+    <Router basename="/" scrollRestoration="manual">
       <div className="App">
         <Header />
         <div className="Content">
+          <ScrollToTop />
           <Routes>
             <Route path="/" element={<Home />} />
             <Route
