@@ -1,19 +1,11 @@
 import data from "../projects.json";
-import Card from "../components/project-slider/Project-Card";
 import LogoSlider from "../components/logo-slider/Logo-Slider";
-import { useNavigate } from "react-router-dom";
+import Slider from "../components/project-slider/Project-Slider.jsx";
 import useScrollAnimation from "../utils/useScrollAnimation.jsx";
-import "../components/project-slider/project-slider.css";
-import "../styles/projects.css";
 
 export default function UIUX() {
   const uiux = data.UIUX;
-  const navigate = useNavigate();
   useScrollAnimation();
-
-  const handleProjectClick = (category, projectId) => {
-    navigate(`/${category}/${projectId}`);
-  };
 
   return (
     <>
@@ -25,7 +17,7 @@ export default function UIUX() {
           "/assets/logos/photoshop.svg",
           "/assets/logos/lightroom.svg",
           "/assets/logos/javascript.svg",
-          "/assets/logos/figma.svg",
+          "/assets/logos/xd.svg",
           "/assets/logos/python.svg",
           "/assets/logos/html.svg",
           "/assets/logos/react.svg",
@@ -39,7 +31,7 @@ export default function UIUX() {
           "/assets/logos/lightroom.svg",
           "/assets/logos/javascript.svg",
           "/assets/logos/python.svg",
-          "/assets/logos/figma.svg",
+          "/assets/logos/xd.svg",
           "/assets/logos/html.svg",
           "/assets/logos/react.svg",
           "/assets/logos/css.svg",
@@ -48,17 +40,7 @@ export default function UIUX() {
       />
       <h1 className="projects-header">ui/ux design</h1>
 
-      <div className="card-holder">
-        {Object.entries(uiux).map(([key, project]) => (
-          <Card
-            key={key}
-            img={project.logo}
-            alt={project.alt}
-            name={project.name}
-            onClick={() => handleProjectClick("UIUX", key)}
-          />
-        ))}
-      </div>
+      <Slider category={"UIUX"} projects={uiux} />
 
       <div className="software-dev-body">
         <div className="projects">

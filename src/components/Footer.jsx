@@ -16,9 +16,11 @@ function Footer() {
           <li>
             <Link to="/UIUX">ui/ux</Link>
           </li>
+          {/**
           <li>
             <Link to="/GraphicDesign">graphic design</Link>
           </li>
+           */}
           {/*}
           <li>
             <Link to="/Contact">contact</Link>

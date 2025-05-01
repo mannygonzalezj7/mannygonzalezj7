@@ -2,6 +2,7 @@ import { Canvas } from "@react-three/fiber";
 import { Macbook } from "../../public/assets/3D/Macbook";
 import { ScrollControls } from "@react-three/drei";
 import { useNavigate } from "react-router-dom";
+import LogoSlider from "../components/logo-slider/Logo-Slider";
 
 export default function Home() {
   const navigate = useNavigate();
@@ -13,7 +14,6 @@ export default function Home() {
   return (
     <>
       <div className="home-container">
-        {/* <SimpleSlider /> */}
         <div className="home-body">
           <div className="home-text">
             <h1>
@@ -46,10 +46,41 @@ export default function Home() {
           </Canvas>
         </div>
         <div className="home-software">
-          <h1>Software Development</h1>
-          <button onClick={() => handleButtonClick("SoftwareDevelopment")}>
-            Explore More
-          </button>
+          <LogoSlider
+            logos={[
+              "/assets/logos/github.svg",
+              "/assets/logos/bootstrap.svg",
+              "/assets/logos/firebase.svg",
+              "/assets/logos/html.svg",
+              "/assets/logos/javascript.svg",
+              "/assets/logos/xd.svg",
+              "/assets/logos/r.svg",
+              "/assets/logos/react.svg",
+              "/assets/logos/sql.svg",
+              "/assets/logos/googlecloud.svg",
+              "/assets/logos/css.svg",
+              "/assets/logos/java.svg",
+
+              "/assets/logos/github.svg",
+              "/assets/logos/bootstrap.svg",
+              "/assets/logos/firebase.svg",
+              "/assets/logos/html.svg",
+              "/assets/logos/javascript.svg",
+              "/assets/logos/python.svg",
+              "/assets/logos/r.svg",
+              "/assets/logos/react.svg",
+              "/assets/logos/sql.svg",
+              "/assets/logos/googlecloud.svg",
+              "/assets/logos/css.svg",
+              "/assets/logos/java.svg",
+            ]}
+          />
+          <div className="home-software-title">
+            <h1>Software Development</h1>
+            <button onClick={() => handleButtonClick("SoftwareDevelopment")}>
+              Explore More
+            </button>
+          </div>
         </div>
       </div>
     </>

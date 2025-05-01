@@ -84,6 +84,7 @@ iframe{
 
 .projects-header{
     text-align: center;
+    padding-top: 4rem;
 }
 
 /* home */
@@ -132,8 +133,7 @@ iframe{
     flex-direction: column;
     justify-content: center;
     align-items: flex-end;
-    padding: 7rem 7rem 0rem 0rem;
-    padding-top: 8rem;
+    padding-top: 10rem;
     transform: translateY(-30rem);
 
 }
@@ -151,6 +151,13 @@ iframe{
     color: red;
     border-color: red;
     transition: 150ms;
+}
+
+.home-software-title{
+    padding-right: 6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
 
 /* software development */

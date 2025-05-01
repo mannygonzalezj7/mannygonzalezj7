@@ -70,11 +70,13 @@ export default function Header() {
             ui/ux design
           </Link>
         </li>
+        {/**
         <li>
           <Link to="/GraphicDesign" onClick={handleToggle}>
             graphic design
           </Link>
         </li>
+        */}
         {/*}
         <li>
           <Link to="/Contact" onClick={handleToggle}>

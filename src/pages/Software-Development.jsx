@@ -1,64 +1,16 @@
 import data from "../projects.json";
-import Card from "../components/project-slider/Project-Card";
-import LogoSlider from "../components/logo-slider/Logo-Slider";
-import { useNavigate } from "react-router-dom";
+
+import Slider from "../components/project-slider/Project-Slider.jsx";
 import useScrollAnimation from "../utils/useScrollAnimation.jsx";
-import "../components/project-slider/project-slider.css";
-import "../styles/projects.css";
 
 export default function SoftwareDevelopment() {
   const sw = data.SoftwareDevelopment;
-  const navigate = useNavigate();
   useScrollAnimation();
-
-  const handleProjectClick = (category, projectId) => {
-    navigate(`/${category}/${projectId}`);
-  };
 
   return (
     <>
-      <LogoSlider
-        logos={[
-          "/assets/logos/github.svg",
-          "/assets/logos/bootstrap.svg",
-          "/assets/logos/firebase.svg",
-          "/assets/logos/html.svg",
-          "/assets/logos/javascript.svg",
-          "/assets/logos/python.svg",
-          "/assets/logos/r.svg",
-          "/assets/logos/react.svg",
-          "/assets/logos/sql.svg",
-          "/assets/logos/googlecloud.svg",
-          "/assets/logos/css.svg",
-          "/assets/logos/java.svg",
-
-          "/assets/logos/github.svg",
-          "/assets/logos/bootstrap.svg",
-          "/assets/logos/firebase.svg",
-          "/assets/logos/html.svg",
-          "/assets/logos/javascript.svg",
-          "/assets/logos/python.svg",
-          "/assets/logos/r.svg",
-          "/assets/logos/react.svg",
-          "/assets/logos/sql.svg",
-          "/assets/logos/googlecloud.svg",
-          "/assets/logos/css.svg",
-          "/assets/logos/java.svg",
-        ]}
-      />
       <h1 className="projects-header">software development</h1>
-
-      <div className="card-holder">
-        {Object.entries(sw).map(([key, project]) => (
-          <Card
-            key={key}
-            img={project.logo}
-            alt={project.alt}
-            name={project.name}
-            onClick={() => handleProjectClick("SoftwareDevelopment", key)}
-          />
-        ))}
-      </div>
+      <Slider category={"SoftwareDevelopment"} projects={sw} />
 
       <div className="software-dev-body">
         <div className="projects">

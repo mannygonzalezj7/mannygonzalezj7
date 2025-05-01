@@ -58,6 +58,39 @@
             "logo":"/assets/projects/peacesign.svg",
             "alt":"PeaceSign screens",
             "description":"Solely engineered PeaceSign, a web application designed to connect users across the United States through image form submissions, aiming to spread peace nationwide. Designed and developed the frontend interface using ReactJS and MapTiller SDK JS. Built backend functionality with Express.js, integrating with a Supabase database for user submissions and admin management. Currently troubleshooting JWT token authentication and optimizing the Supabase connection before launching to production."
+        },
+        "peacesign2":{
+            "style": "style2",
+            "name":"PeaceSign",
+            "date":"12/2024",
+            "short":"Spread The Peace!",
+            "long":"Share peace-filled activities with people nearby!",
+            "img":["/assets/img/peacesign1.png", "/assets/img/peacesign2.png"],
+            "logo":"/assets/projects/peacesign.svg",
+            "alt":"PeaceSign screens",
+            "description":"Solely engineered PeaceSign, a web application designed to connect users across the United States through image form submissions, aiming to spread peace nationwide. Designed and developed the frontend interface using ReactJS and MapTiller SDK JS. Built backend functionality with Express.js, integrating with a Supabase database for user submissions and admin management. Currently troubleshooting JWT token authentication and optimizing the Supabase connection before launching to production."
+        },
+        "peacesign3":{
+            "style": "style2",
+            "name":"PeaceSign",
+            "date":"12/2024",
+            "short":"Spread The Peace!",
+            "long":"Share peace-filled activities with people nearby!",
+            "img":["/assets/img/peacesign1.png", "/assets/img/peacesign2.png"],
+            "logo":"/assets/projects/peacesign.svg",
+            "alt":"PeaceSign screens",
+            "description":"Solely engineered PeaceSign, a web application designed to connect users across the United States through image form submissions, aiming to spread peace nationwide. Designed and developed the frontend interface using ReactJS and MapTiller SDK JS. Built backend functionality with Express.js, integrating with a Supabase database for user submissions and admin management. Currently troubleshooting JWT token authentication and optimizing the Supabase connection before launching to production."
+        },
+        "peacesign4":{
+            "style": "style2",
+            "name":"PeaceSign",
+            "date":"12/2024",
+            "short":"Spread The Peace!",
+            "long":"Share peace-filled activities with people nearby!",
+            "img":["/assets/img/peacesign1.png", "/assets/img/peacesign2.png"],
+            "logo":"/assets/projects/peacesign.svg",
+            "alt":"PeaceSign screens",
+            "description":"Solely engineered PeaceSign, a web application designed to connect users across the United States through image form submissions, aiming to spread peace nationwide. Designed and developed the frontend interface using ReactJS and MapTiller SDK JS. Built backend functionality with Express.js, integrating with a Supabase database for user submissions and admin management. Currently troubleshooting JWT token authentication and optimizing the Supabase connection before launching to production."
         }
         
     }, "GraphicDesign":{

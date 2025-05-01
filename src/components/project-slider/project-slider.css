@@ -1,40 +1,53 @@
-.card-holder{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
-    padding: 2rem 0;
-
-    background-color: rgba(255, 255, 255, 0.1);
-    background-color: white;
+.slider-container {
+    overflow: hidden;
+    width: 100%;
+    position: relative;
 }
 
-.card{
+.card-holder {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    padding: 2rem;
+    cursor: grab;
+    user-select: none;
+    will-change: transform;
+    white-space: nowrap;
+    width: max-content;
+    transform: translateX(0);
+}
+
+
+.card {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     cursor: pointer;
-
     gap: 1rem;
+    min-width: 200px;
+    scroll-snap-align: center;
 }
 
-.img{
+.img {
     height: 2rem;
     width: auto;
 }
 
+/* Mobile-specific adjustments */
 @media (max-width: 720px) {
-    .card-holder{
-        gap: 1rem;
+    .card-holder {
+        gap: 0rem;
+        overflow-x: auto;
+        touch-action: pan-x;
     }
 
-    .card{
+    .card {
         font-size: 1rem;
+        min-width: 150px;
     }
 
-    .img{
+    .img {
         height: 2rem;
         width: auto;
     }
