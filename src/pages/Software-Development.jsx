@@ -1,9 +1,10 @@
+import { useNavigate } from "react-router-dom";
 import data from "../projects.json";
-
 import Slider from "../components/project-slider/Project-Slider.jsx";
 import useScrollAnimation from "../utils/useScrollAnimation.jsx";
 
 export default function SoftwareDevelopment() {
+  const navigate = useNavigate();
   const sw = data.SoftwareDevelopment;
   useScrollAnimation();
 
@@ -28,9 +29,7 @@ export default function SoftwareDevelopment() {
                     <p id="title">{project.short}</p>
                     <p>{project.long}</p>
                     <button
-                      onClick={() =>
-                        handleProjectClick("SoftwareDevelopment", key)
-                      }
+                      onClick={() => navigate(`/SoftwareDevelopment/${key}`)}
                     >
                       Learn More
                     </button>

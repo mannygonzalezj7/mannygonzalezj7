@@ -1,43 +1,16 @@
+import { useNavigate } from "react-router-dom";
 import data from "../projects.json";
 import LogoSlider from "../components/logo-slider/Logo-Slider";
 import Slider from "../components/project-slider/Project-Slider.jsx";
 import useScrollAnimation from "../utils/useScrollAnimation.jsx";
 
 export default function UIUX() {
+  const navigate = useNavigate();
   const uiux = data.UIUX;
   useScrollAnimation();
 
   return (
     <>
-      <LogoSlider
-        logos={[
-          "/assets/logos/figma.svg",
-          "/assets/logos/illustrator.svg",
-          "/assets/logos/indesign.svg",
-          "/assets/logos/photoshop.svg",
-          "/assets/logos/lightroom.svg",
-          "/assets/logos/javascript.svg",
-          "/assets/logos/xd.svg",
-          "/assets/logos/python.svg",
-          "/assets/logos/html.svg",
-          "/assets/logos/react.svg",
-          "/assets/logos/css.svg",
-          "/assets/logos/java.svg",
-
-          "/assets/logos/figma.svg",
-          "/assets/logos/illustrator.svg",
-          "/assets/logos/indesign.svg",
-          "/assets/logos/photoshop.svg",
-          "/assets/logos/lightroom.svg",
-          "/assets/logos/javascript.svg",
-          "/assets/logos/python.svg",
-          "/assets/logos/xd.svg",
-          "/assets/logos/html.svg",
-          "/assets/logos/react.svg",
-          "/assets/logos/css.svg",
-          "/assets/logos/java.svg",
-        ]}
-      />
       <h1 className="projects-header">ui/ux design</h1>
 
       <Slider category={"UIUX"} projects={uiux} />
@@ -57,7 +30,7 @@ export default function UIUX() {
                   <div id="text">
                     <p id="title">{project.short}</p>
                     <p>{project.long}</p>
-                    <button onClick={() => handleProjectClick("UIUX", key)}>
+                    <button onClick={() => navigate(`/UIUX/${key}`)}>
                       Learn More
                     </button>
                   </div>

@@ -82,6 +82,65 @@ export default function Home() {
             </button>
           </div>
         </div>
+        <div className="home-uiux">
+          <div className="home-uiux-pictures">
+            <div className="home-uiux-pictures-1">
+              <img
+                src="/assets/img/MCP1.png"
+                alt="Image of PeaseSign, a personal project."
+              />
+              <img
+                src="/assets/img/glasses4u1.png"
+                alt="Image of PeaseSign, a personal project."
+              />
+            </div>
+            <div className="home-uiux-pictures-2">
+              <img
+                src="/assets/img/discord1.png"
+                alt="Image of PeaseSign, a personal project."
+              />
+              <img
+                src="/assets/img/libraryfinder1.png"
+                alt="Image of PeaseSign, a personal project."
+              />
+            </div>
+          </div>
+          <LogoSlider
+            logos={[
+              "/assets/logos/figma.svg",
+              "/assets/logos/illustrator.svg",
+              "/assets/logos/indesign.svg",
+              "/assets/logos/photoshop.svg",
+              "/assets/logos/lightroom.svg",
+              "/assets/logos/javascript.svg",
+              "/assets/logos/xd.svg",
+              "/assets/logos/python.svg",
+              "/assets/logos/html.svg",
+              "/assets/logos/react.svg",
+              "/assets/logos/css.svg",
+              "/assets/logos/java.svg",
+
+              "/assets/logos/figma.svg",
+              "/assets/logos/illustrator.svg",
+              "/assets/logos/indesign.svg",
+              "/assets/logos/photoshop.svg",
+              "/assets/logos/lightroom.svg",
+              "/assets/logos/javascript.svg",
+              "/assets/logos/python.svg",
+              "/assets/logos/xd.svg",
+              "/assets/logos/html.svg",
+              "/assets/logos/react.svg",
+              "/assets/logos/css.svg",
+              "/assets/logos/java.svg",
+            ]}
+          />
+          <div className="home-uiux-title">
+            <h1>UI/UX Design</h1>
+            <button onClick={() => handleButtonClick("UIUX")}>
+              Explore More
+            </button>
+          </div>
+        </div>
       </div>
     </>
   );

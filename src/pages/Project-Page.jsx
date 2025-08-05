@@ -40,14 +40,14 @@ export default function Project() {
           <div className="project-head">
             <div className="project-title">
               <h1>{project.name}</h1>
-              <p>Date: {project.date}</p>
+              <p>{project.date}</p>
             </div>
           </div>
           <div className="project-description">
             <h2>{project.long}</h2>
             <p>{project.description}</p>
             {project.link && (
-              <a href={project.link} target="_blank">
+              <a href={project.link} target="_blank" className="project-button">
                 External Link
               </a>
             )}
