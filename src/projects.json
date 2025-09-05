@@ -1,130 +1,269 @@
 {
-    "SoftwareDevelopment":{
-        "rockpaperscissors":{
+    "SoftwareDevelopment": {
+        "rockpaperscissors": {
             "style": "style1",
-            "name":"Rock, Paper, Scissors",
-            "date":"10/2024",
-            "short":"Rock, Paper, Scissors",
-            "long":"Rock, Paper, Scissors from Odin Project",
-            "img":["/assets/img/rockpaperscissors.jpg"],
-            "logo":"/assets/projects/rockpaperscissors.svg",
-            "alt":"Rock, Paper, Scissors game being played!",
+            "name": "Rock, Paper, Scissors",
+            "date": "10/2024",
+            "short": "Rock, Paper, Scissors",
+            "long": "Rock, Paper, Scissors from Odin Project",
+            "img": [
+                "/assets/img/rockpaperscissors.jpg",
+                "/assets/img/rockpaperscissors.jpg",
+                "/assets/img/rockpaperscissors.jpg"
+            ],
+            "video": "/assets/videos/rockpaperscissorsV.mov",
+            "logo": "/assets/projects/rockpaperscissors.svg",
+            "alt": "Rock, Paper, Scissors game being played!",
             "link": "https://github.com/mannygonzalezj7/odin-rock-paper-scissors",
-            "description":"This project is the concepts of a rock, paper, scissors game in HTML and JavaScript. From this project, I practiced the use of console inputs and prompts. The project is primarily coded in JavaScript, using functions, variables (both global and local), and recursion. The project itself was a simple outline by Odin Project, but I extended it to catch all exceptions, including null exceptions. So far, the game is still played in console, but in the future I plan to have an interactive user interface made with HTML, CSS and JavaScript. This game was good practice for the basics of JavaScript, and a good reminder that debugging is very important for making sure everything works properly!"
+            "linkname": "Github Repo",
+            "headline": [
+                "Learning the Basics",
+                "Building Game Logic",
+                "Adapting and Expanding"
+            ],
+            "description": [
+                "As part of The Odin Project, I built a simple Rock Paper Scissors game playable in the console. This project served as an introduction to programming fundamentals, including variables, conditionals, functions, and user input handling.",
+                "The game logic compares the player's choice against the computer’s randomized selection to determine the winner. I practiced structuring code with reusable functions and handling edge cases, such as ties or invalid input, to make the experience smooth.",
+                "Beyond following the base tutorial, I adapted and refined the project with my own improvements, strengthening my understanding of JavaScript flow control. This small but impactful project marked an important step in my journey toward more complex interactive applications."
+            ]
         },
-        "madlibs":{
+        "madlibs": {
             "style": "style2",
-            "name":"MadLibs",
-            "date":"10/2024",
-            "short":"Mad and Libs",
-            "long":"MadLibs project from LIS 640 with a twist!",
-            "img":["/assets/img/madlibs1.png"],
-            "logo":"/assets/projects/madlibs.svg",
-            "alt":"MadLibs game being played!",
+            "name": "MadLibs",
+            "date": "10/2024",
+            "short": "[ADJECTIVE] Libs",
+            "long": "MadLibs project from LIS 640 with a twist!",
+            "img": [
+                "/assets/img/madlibs1.png",
+                "/assets/img/madlibs2.png",
+                "/assets/img/madlibs3.png"
+            ],
+            "video": "/assets/videos/madlibsV.mov",
+            "logo": "/assets/projects/madlibs.svg",
+            "alt": "MadLibs game being played!",
             "link": "https://github.com/mannygonzalezj7/MadLibs",
-            "description":""
+            "linkname": "Github Repo",
+            "headline": [
+                "Expanding a Simple Assignment",
+                "Adding Randomization",
+                "Designing for Play"
+            ],
+            "description": [
+                "For my LIS 640 course, I created a MadLibs-style mini game, where users fill in prompts like nouns, verbs, and adjectives to generate a fun and quirky story. While the assignment only required a basic console version, I pushed further by developing a fully interactive web version with HTML, CSS, and JavaScript.",
+                "I enhanced the project with randomized story templates so that users get a different experience every time they play. I also implemented input validation in JavaScript, ensuring that user submissions only included letters and spaces, making the game cleaner and more polished. The functionality was designed around arrays, objects, and loops, putting core programming concepts into practice.",
+                "To elevate the user experience, I styled the interface to feel engaging and playful, making the project both educational and entertaining. This project reflects how I take classroom assignments beyond the basics - transforming a simple coding exercise into a responsive, interactive, and visually appealing game."
+            ]
         },
-        "recipefinder":{
+        "recipefinder": {
             "style": "style5",
-            "name":"RecipeFinder",
-            "date":"11/2024",
-            "short":"Find tasty recipies!",
-            "long":"Madhacks 2025 Project!",
-            "img":["/assets/img/recipefinder1.png"],
-            "logo":"/assets/projects/recipefinder.svg",
-            "alt":"Recipe finder screens with a purple to pink gradiet background and search field",
+            "name": "RecipeFinder",
+            "date": "11/2024",
+            "short": "Find tasty recipies!",
+            "long": "Madhacks 2025 Project!",
+            "img": [
+                "/assets/img/recipefinder1.png",
+                "/assets/img/recipefinder2.png",
+                "/assets/img/recipefinder3.png"
+            ],
+            "video": "/assets/videos/recipefinderV.mov",
+            "logo": "/assets/projects/recipefinder.svg",
+            "alt": "Recipe finder screens with a purple to pink gradiet background and search field",
             "link": "https://github.com/mannygonzalezj7/recpie-finder",
-            "description":"Our objective was to create a webpage where college students and other people with low time/resources could figure out what to cook with only the given ingredients they have in their fridge. Our main goal was to make cooking easier and a better experience for users. We decided to tackle the project in HTML, CSS and JavaScript using Edamam's Recipe Search API, as well as Firebase for authentication. The styling was made to look modern and sleek, in order to appeal to our target audiences."
+            "linkname": "Github Repo",
+            "headline": [
+                "Hackathon Innovation",
+                "Simplifying Cooking",
+                "Modern Design for Students"
+            ],
+            "description": [
+                "RecipeFinder was our project for Madhacks 2025, built in collaboration with Asma Sulieman, Muiz Aminu, and myself. The idea emerged from a common struggle among college students and busy individuals: figuring out what to cook with limited ingredients. Our goal was to create a solution that makes cooking more accessible, practical, and enjoyable.",
+                "We built the project using HTML, CSS, and JavaScript, integrating Edamam's Recipe Search API to generate recipe ideas based on whatever ingredients a user already has. To support personalization and security, we used Firebase for authentication, enabling users to log in and save their preferences seamlessly.",
+                "Beyond functionality, we placed strong emphasis on design. The interface was styled to be modern, sleek, and user-friendly, resonating with our target audience of college students and young adults. The result was a hackathon-ready prototype that combined efficiency, simplicity, and aesthetics to improve the cooking experience."
+            ]
         },
-        "libraryfinder":{
+        "libraryfinder": {
             "style": "style1",
-            "name":"LibraryFinder",
-            "date":"12/2024",
-            "short":"Find Madison Libraries",
-            "long":"UW-Madison Libraries near you waiting to be explored!",
-            "img":["/assets/img/libraryfinder1.png", "/assets/img/libraryfinder2.png", "/assets/img/libraryfinder3.png"],
-            "logo":"/assets/projects/libraryfinder.svg",
-            "alt":"LibraryFinder screens",
+            "name": "LibraryFinder",
+            "date": "12/2024",
+            "short": "Find Madison Libraries",
+            "long": "UW-Madison Libraries near you waiting to be explored!",
+            "img": [
+                "/assets/img/libraryfinder1.png",
+                "/assets/img/libraryfinder2.png",
+                "/assets/img/libraryfinder3.png"
+            ],
+            "video": "/assets/videos/libraryFinderVSW.mov",
+            "logo": "/assets/projects/libraryfinder.svg",
+            "alt": "LibraryFinder screens",
             "link": "https://github.com/mannygonzalezj7/LibraryFinder",
-            "description":"LIS 640 final project. Made with JavaScript, HTML, CSS and Bootstrap. This project was in collaboration with Tanmay Maity, a MS Information and Library Sciences student at the University of Wisconsin - Madison. This project features static library hours and information, book checkouts, events, and contact information."
+            "linkname": "Github Repo",
+            "headline": [
+                "Redesigning with a purpose",
+                "Conducting Research",
+                "Usability Testing"
+            ],
+            "description": [
+                "For my CS 570: Introduction to Human-Computer Interaction course, my team and I redesigned the Discord application with a focus on usability and accessibility improvements. Key features of our redesign included clearer channel labeling, hover tooltips, improved microphone and camera controls modeled after familiar phone interfaces, and advanced message search filters. We also added user-centered touches such as an AI-powered help section, color coding, and more intuitive layouts for voice and text channels",
+                "Our project began with contextual inquiries and user interviews, where we observed both experienced and new users performing common tasks like joining servers, sending messages, and entering voice channels. From this research, we identified pain points such as confusing navigation, microphone and voice chat difficulties, message searching inefficiencies, and accessibility challenges on mobile and console devices. Using this data, we moved into an iterative design ideation process, developing storyboards, low-fidelity wireframes, and eventually a polished high-fidelity prototype in Figma.",
+                "Usability testing guided each stage, ensuring our design worked for both new and experienced Discord users while retaining the platform's familiar structure. The final prototype delivered a streamlined, modernized Discord experience that enhances navigation, reduces user frustration, and supports accessibility: demonstrating how iterative design and user feedback can transform a widely used platform into a more intuitive, user-friendly application."
+            ]
         },
-        "peacesign":{
+        "peacesign": {
             "style": "style2",
-            "name":"PeaceSign",
-            "date":"12/2024",
-            "short":"Spread The Peace!",
-            "long":"Share peace-filled activities with people nearby!",
-            "img":["/assets/img/peacesign1.png", "/assets/img/peacesign2.png"],
-            "logo":"/assets/projects/peacesign.svg",
-            "alt":"PeaceSign screens",
-            "description":"Solely engineered PeaceSign, a web application designed to connect users across the United States through image form submissions, aiming to spread peace nationwide. Designed and developed the frontend interface using ReactJS and MapTiller SDK JS. Built backend functionality with Express.js, integrating with a Supabase database for user submissions and admin management. Currently troubleshooting JWT token authentication and optimizing the Supabase connection before launching to production."
+            "name": "PeaceSign",
+            "date": "12/2024",
+            "short": "Spread The Peace!",
+            "long": "Share peace-filled activities with people nearby!",
+            "img": [
+                "/assets/img/peacesign1.png",
+                "/assets/img/peacesign2.png",
+                "/assets/img/peacesign3.png"
+            ],
+            "video": "/assets/videos/peacesignV.mov",
+            "logo": "/assets/projects/peacesign.svg",
+            "alt": "PeaceSign screens",
+            "headline": [
+                "Engineering PeaceSign",
+                "Building with New Tools",
+                "Connecting Communities"
+            ],
+            "description": [
+                "PeaceSign is a web application I engineered to connect users across the United States by allowing them to submit images tied to specific locations, creating a collective digital map of peace. The platform is designed to feel like a lightweight social media network where users can share and explore meaningful or fun moments placed on an interactive map.",
+                "This was my first time working with MapTiller, Express.js, and Supabase, which made the development process both challenging and rewarding. I integrated React for the frontend, Express.js for the backend API, Supabase for authentication and storage, and MapTiller for dynamic geolocation mapping. I also implemented JWT-based admin authentication to manage and approve submissions, ensuring the platform maintained quality and authenticity.",
+                "The overall goal was to make PeaceSign a space where people could discover real-time peace signs nearby. In other words, uplifting, fun, or calming user contributions that spread positivity nationwide. By combining real-time interaction with geospatial technology, the project highlights how technology can strengthen community connections and encourage shared moments of peace."
+            ]
         }
-        
-    }, "GraphicDesign":{
-        "project1":{
+    },
+    "GraphicDesign": {
+        "project1": {
             "style": "style1",
-            "name":"This is where the projects will go once updated! Currently under development.",
-            "date":"09/11/2001",
-            "short":"Projects",
-            "long":"Projects",
-            "img":"/assets/img/screen.jpeg",
-            "logo":"/assets/svg/close-menu.svg",
-            "alt":"Projects image",
+            "name": "This is where the projects will go once updated! Currently under development.",
+            "date": "09/11/2001",
+            "short": "Projects",
+            "long": "Projects",
+            "img": "/assets/img/screen.jpeg",
+            "logo": "/assets/svg/close-menu.svg",
+            "alt": "Projects image",
             "link": "https://www.apple.com/",
-            "description":"Projects description goes here!"
+            "description": "Projects description goes here!"
         }
-    }, "UIUX":{
-        "libraryfinder":{
+    },
+    "UIUX": {
+        "libraryfinder": {
             "style": "style1",
-            "name":"LibraryFinder",
-            "date":"12/2024",
-            "short":"Responsive UI Design",
-            "long":"LibraryFinder UI design before developing the application",
-            "img":[],
-            "logo":"/assets/projects/libraryfinder.svg",
-            "alt":"LibraryFinder image",
-            "description":"Projects description goes here!",
-            "figmaimg":"/assets/img/libraryfinder1.png",
+            "name": "LibraryFinder",
+            "date": "12/2024",
+            "short": "Responsive UI Design",
+            "long": "LibraryFinder UI design before developing the application",
+            "img": [
+                "/assets/img/libraryfinder11.png",
+                "/assets/img/libraryfinder12.png",
+                "/assets/img/libraryfinder13.png"
+            ],
+            "video": "/assets/videos/libraryfinderV.mov",
+            "logo": "/assets/projects/libraryfinder.svg",
+            "alt": "LibraryFinder image",
+            "link": "https://docs.google.com/document/d/1_fIvWW4HoEZuelsxb2d8CHDo1v4usVLjgrhRXxA2HuI/edit?tab=t.0",
+            "linkname": "Summary Document",
+            "headline": [
+                "Intuitive Multi-Page Structure",
+                "Seamless User Interaction",
+                "Consistent and Accessible Design Language"
+            ],
+            "description": [
+                "I designed the LibraryFinder prototype to give users clear pathways to essential resources. Pages include Home, Locations, Books, and Events — each structured to make navigation simple and intuitive while prioritizing user needs like finding hours, borrowing books, and discovering events.",
+                "The design emphasizes interactive features such as dynamic book browsing and event registration. Through the use of forms, buttons, and filter options, users can complete tasks with minimal friction, reflecting a user-first approach that balances accessibility with functionality.",
+                "By applying a responsive layout, clean typography, and consistent color palette, the prototype ensures readability across devices. The interface leverages spacing, alignment, and visual hierarchy to highlight key information, creating a smooth and engaging UX for diverse library users."
+            ],
+            "figmaimg": "/assets/img/libraryfinder1.png",
             "figma": "https://embed.figma.com/design/danGpTWXIJWV4ELEfg8bc6/LibraryFinderUW?node-id=0-1&embed-host=share"
         },
-        "glasses4u":{
-            "style": "style2",
-            "name":"Glasses4U",
-            "date":"01/2024",
-            "short":"Rapid UI Design",
-            "long":"Designed for CS 571, In Class, Within 15 Minutes",
-            "img":[],
-            "logo":"/assets/projects/glasses4u.svg",
-            "alt":"glasses4u image",
-            "description":"Projects description goes here!",
-            "figmaimg":"/assets/img/glasses4u1.png",
+        "glasses4u": {
+            "style": "style4",
+            "name": "Glasses4U",
+            "date": "01/2024",
+            "short": "Rapid UI Design",
+            "long": "Designed for CS 571, In Class, Within 15 Minutes",
+            "img": [
+                "/assets/img/glasses4u1.png",
+                "/assets/img/glasses4u2.png",
+                "/assets/img/glasses4u3.png"
+            ],
+            "video": "/assets/videos/glasses4uV.mov",
+            "logo": "/assets/projects/glasses4u.svg",
+            "alt": "glasses4u image",
+            "link": "https://docs.google.com/document/d/1TqejSHwELmgOlgQtjmsRVwx5rT6zzLRpHC-H7u2tlv4/edit?usp=sharing",
+            "linkname": "Assignment Document",
+            "headline": [
+                "Minimalist and Balanced Layout",
+                "Strategic Use of Color and Typography",
+                "High-Quality Imagery to Drive Engagement"
+            ],
+            "description": [
+                "I designed the glasses product page with intentional whitespace to avoid clutter and create a sense of openness. This ensures that users can focus on the key content without feeling overwhelmed, while a centered alignment establishes a clear visual flow.",
+                "Red was used for buttons to make them stand out as strong calls-to-action, while a simple palette of cool tones established balance and sophistication. I paired this with a sans-serif font to communicate prestige, trust, and readability.",
+                "Each eyeglass frame is displayed with clean, high-resolution PNGs, balanced and centered to keep the user’s attention. This sleek, Apple-inspired aesthetic avoids texture or unnecessary decoration, prioritizing clarity and product emphasis."
+            ],
+            "figmaimg": "/assets/img/glasses4u1.png",
             "figma": "https://embed.figma.com/design/BSBmx4KviUFDXweXz7D2qg/571-ICA-B?embed-host=share"
         },
-        "discord":{
-            "style": "style5",
-            "name":"Discord",
-            "date":"03/2024",
-            "short":"Discord Redesign",
-            "long":"Redesigned Discord communications UI for better user experience",
-            "img":[],
-            "logo":"/assets/projects/discord.svg",
-            "alt":"discord image",
-            "description":"Projects description goes here!",
-            "figmaimg":"/assets/img/discord1.png",
-            "figma": "https://embed.figma.com/design/e32wSyFu38kuS2eBQGFxWV/CS-570-Prototype?node-id=0-1&embed-host=share"
-        },
-        "madisoncatproject":{
+        "madisoncatproject": {
             "style": "style4",
-            "name":"MCP",
-            "date":"02/2024",
-            "short":"Madison Cat Project Redesign",
-            "long":"Redesigned an established website for better user experience",
-            "img":[],
-            "logo":"/assets/projects/MCP.svg",
-            "alt":"Madison Cat Project image",
-            "description":"Projects description goes here!",
-            "figmaimg":"/assets/img/MCP1.png",
+            "name": "MCP",
+            "date": "02/2024",
+            "short": "Madison Cat Project Redesign",
+            "long": "Redesigned an established website for better user experience",
+            "img": [
+                "/assets/img/MCP1.png",
+                "/assets/img/MCP2.png",
+                "/assets/img/MCP3.png"
+            ],
+            "video": "/assets/videos/MCPV.mov",
+            "logo": "/assets/projects/MCP.svg",
+            "alt": "Madison Cat Project image",
+            "link": "https://docs.google.com/document/d/1rxc06RU7gfwWkxPReh6uDN6Nm-9Kg72euEUxS_NNq3w/edit?tab=t.0",
+            "linkname": "Assignment Document",
+            "headline": [
+                "Interactive Prototype for Madison Cat Project",
+                "Navigation Aids for Smooth User Flow",
+                "Hub & Spoke Navigation Model"
+            ],
+            "description": [
+                "I created a multi-screen prototype in Figma for the Madison Cat Project. The design allows users to explore adoptable cats, view individual profiles, and schedule appointments, showcasing a clear and user-friendly adoption process.",
+                "The prototype includes navigation aids such as menus, tabs, and filter bars. A top navigation bar provides global access across the site, while filters and tabs streamline browsing, helping users quickly find the information or cats they're most interested in.",
+                "I applied the Hub & Spoke model to structure the prototype. Each section branches from a central hub, creating a sequential and linear flow. This model fits the project well since the site is primarily static and users move step by step through the adoption process."
+            ],
+            "figmaimg": "/assets/img/MCP1.png",
             "figma": "https://embed.figma.com/design/PYvWS3LQwakt8XGlnCbs7H/MADISON-CAT-PROJECT---Redesign?node-id=0-1&embed-host=share"
+        },
+        "discord": {
+            "style": "style2",
+            "name": "Discord",
+            "date": "03/2024",
+            "short": "Discord Redesign",
+            "long": "Redesigned Discord communications UI for better user experience",
+            "img": [
+                "/assets/img/discord1.png",
+                "/assets/img/discord2.png",
+                "/assets/img/discord3.png"
+            ],
+            "video": "/assets/videos/discordV.mov",
+            "logo": "/assets/projects/discord.svg",
+            "alt": "discord image",
+            "link": "https://docs.google.com/document/d/1_fIvWW4HoEZuelsxb2d8CHDo1v4usVLjgrhRXxA2HuI/edit?tab=t.0",
+            "linkname": "Summary Document",
+            "headline": [
+                "Redesigning with a purpose",
+                "Conducting Research",
+                "Usability Testing"
+            ],
+            "description": [
+                "For my CS 570: Introduction to Human-Computer Interaction course, my team and I redesigned the Discord application with a focus on usability and accessibility improvements. Key features of our redesign included clearer channel labeling, hover tooltips, improved microphone and camera controls modeled after familiar phone interfaces, and advanced message search filters. We also added user-centered touches such as an AI-powered help section, color coding, and more intuitive layouts for voice and text channels",
+                "Our project began with contextual inquiries and user interviews, where we observed both experienced and new users performing common tasks like joining servers, sending messages, and entering voice channels. From this research, we identified pain points such as confusing navigation, microphone and voice chat difficulties, message searching inefficiencies, and accessibility challenges on mobile and console devices. Using this data, we moved into an iterative design ideation process, developing storyboards, low-fidelity wireframes, and eventually a polished high-fidelity prototype in Figma.",
+                "Usability testing guided each stage, ensuring our design worked for both new and experienced Discord users while retaining the platform's familiar structure. The final prototype delivered a streamlined, modernized Discord experience that enhances navigation, reduces user frustration, and supports accessibility: demonstrating how iterative design and user feedback can transform a widely used platform into a more intuitive, user-friendly application."
+            ],
+            "figmaimg": "/assets/img/discord1.png",
+            "figma": "https://embed.figma.com/design/e32wSyFu38kuS2eBQGFxWV/CS-570-Prototype?node-id=0-1&embed-host=share"
         }
     }
 }

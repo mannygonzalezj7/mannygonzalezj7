@@ -1,6 +1,5 @@
 import { useNavigate } from "react-router-dom";
 import data from "../projects.json";
-import LogoSlider from "../components/logo-slider/Logo-Slider";
 import Slider from "../components/project-slider/Project-Slider.jsx";
 import useScrollAnimation from "../utils/useScrollAnimation.jsx";
 
