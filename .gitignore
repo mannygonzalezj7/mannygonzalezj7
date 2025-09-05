@@ -24,5 +24,5 @@ dist-ssr
 *.sw?
 
 # Ignore videos
-public/assets/videos/MCPV.mov
-public/assets/videos/libraryFinderVSW.mov
+public/assets/videos/MCPV.mp4
+public/assets/videos/libraryFinderVSW.mp4

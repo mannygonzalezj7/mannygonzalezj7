@@ -40,7 +40,6 @@ export default function Project() {
           <p>{project.description[0]}</p>
         </div>
         <video id="video" autoPlay loop muted>
-          <source src={project.video} type="video/quicktime" />
           <source src={project.video} type="video/mp4" />
           Your browser does not support the video tag.
         </video>

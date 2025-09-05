@@ -11,7 +11,7 @@
                 "/assets/img/rockpaperscissors.jpg",
                 "/assets/img/rockpaperscissors.jpg"
             ],
-            "video": "/assets/videos/rockpaperscissorsV.mov",
+            "video": "/assets/videos/rockpaperscissorsV.mp4",
             "logo": "/assets/projects/rockpaperscissors.svg",
             "alt": "Rock, Paper, Scissors game being played!",
             "link": "https://github.com/mannygonzalezj7/odin-rock-paper-scissors",
@@ -38,7 +38,7 @@
                 "/assets/img/madlibs2.png",
                 "/assets/img/madlibs3.png"
             ],
-            "video": "/assets/videos/madlibsV.mov",
+            "video": "/assets/videos/madlibsV.mp4",
             "logo": "/assets/projects/madlibs.svg",
             "alt": "MadLibs game being played!",
             "link": "https://github.com/mannygonzalezj7/MadLibs",
@@ -65,7 +65,7 @@
                 "/assets/img/recipefinder2.png",
                 "/assets/img/recipefinder3.png"
             ],
-            "video": "/assets/videos/recipefinderV.mov",
+            "video": "/assets/videos/recipefinderV.mp4",
             "logo": "/assets/projects/recipefinder.svg",
             "alt": "Recipe finder screens with a purple to pink gradiet background and search field",
             "link": "https://github.com/mannygonzalezj7/recpie-finder",
@@ -92,7 +92,7 @@
                 "/assets/img/libraryfinder2.png",
                 "/assets/img/libraryfinder3.png"
             ],
-            "video": "/assets/videos/libraryFinderVSW.mov",
+            "video": "/assets/videos/libraryFinderVSW.mp4",
             "logo": "/assets/projects/libraryfinder.svg",
             "alt": "LibraryFinder screens",
             "link": "https://github.com/mannygonzalezj7/LibraryFinder",
@@ -119,7 +119,7 @@
                 "/assets/img/peacesign2.png",
                 "/assets/img/peacesign3.png"
             ],
-            "video": "/assets/videos/peacesignV.mov",
+            "video": "/assets/videos/peacesignV.mp4",
             "logo": "/assets/projects/peacesign.svg",
             "alt": "PeaceSign screens",
             "headline": [
@@ -160,7 +160,7 @@
                 "/assets/img/libraryfinder12.png",
                 "/assets/img/libraryfinder13.png"
             ],
-            "video": "/assets/videos/libraryfinderV.mov",
+            "video": "/assets/videos/libraryfinderV.mp4",
             "logo": "/assets/projects/libraryfinder.svg",
             "alt": "LibraryFinder image",
             "link": "https://docs.google.com/document/d/1_fIvWW4HoEZuelsxb2d8CHDo1v4usVLjgrhRXxA2HuI/edit?tab=t.0",
@@ -189,7 +189,7 @@
                 "/assets/img/glasses4u2.png",
                 "/assets/img/glasses4u3.png"
             ],
-            "video": "/assets/videos/glasses4uV.mov",
+            "video": "/assets/videos/glasses4uV.mp4",
             "logo": "/assets/projects/glasses4u.svg",
             "alt": "glasses4u image",
             "link": "https://docs.google.com/document/d/1TqejSHwELmgOlgQtjmsRVwx5rT6zzLRpHC-H7u2tlv4/edit?usp=sharing",
@@ -218,7 +218,7 @@
                 "/assets/img/MCP2.png",
                 "/assets/img/MCP3.png"
             ],
-            "video": "/assets/videos/MCPV.mov",
+            "video": "/assets/videos/MCPV.mp4",
             "logo": "/assets/projects/MCP.svg",
             "alt": "Madison Cat Project image",
             "link": "https://docs.google.com/document/d/1rxc06RU7gfwWkxPReh6uDN6Nm-9Kg72euEUxS_NNq3w/edit?tab=t.0",
@@ -247,7 +247,7 @@
                 "/assets/img/discord2.png",
                 "/assets/img/discord3.png"
             ],
-            "video": "/assets/videos/discordV.mov",
+            "video": "/assets/videos/discordV.mp4",
             "logo": "/assets/projects/discord.svg",
             "alt": "discord image",
             "link": "https://docs.google.com/document/d/1_fIvWW4HoEZuelsxb2d8CHDo1v4usVLjgrhRXxA2HuI/edit?tab=t.0",
